@@ -1,0 +1,111 @@
+#title {
+    border-style: solid;
+    border-color: lightgray;
+    background-color: #d3d3d3;
+    border-width: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    
+}
+
+.navigationBar {
+    border-width: 20px;
+    text-align: center;
+    padding-bottom: 46px;
+    background-color: #333;
+
+
+    a { 
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #333;
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-right: 1px solid #bbb;
+        display: flex;
+        
+    }
+    
+  }
+
+.navigationBar a:hover {
+    background-color: #111;
+}
+
+body {
+    background-color: blanchedalmond;
+    background-image: url(images/jfmPAC.webp);
+}
+
+table {
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border: 1px solid #111;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  .intro-image {
+    float: left;
+  
+    width: fit-content;
+  
+    padding: 10px;
+  
+    margin-left: 5px;
+  
+    background-color: #e6f7ff;
+  
+    border: 1px solid #ddd;
+  }
+
+#footer {
+  text-align: center;
+  background-color:#444;
+  padding: 10px;
+  font-size: 0.9em;
+  clear: both;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: #d3d3d3;
+}
+
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#videoCenter {
+  display: flex;
+     justify-content: center;
+    align-items: center;
+}
